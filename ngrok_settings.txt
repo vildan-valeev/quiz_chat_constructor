@@ -1,0 +1,3 @@
+./ngrok authtoken 1UsQiVX5yamnqtOQlsFbdCQWaPO_6PkGezQvuw75sJu3HgY8Q
+./ngrok help
+./ngrok http 88

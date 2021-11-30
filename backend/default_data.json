@@ -1,0 +1,2951 @@
+[
+{
+<<<<<<< HEAD
+  "model": "users.useraccount",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$w1cM2XG6mYO6R2WIRCO5Ub$FWXqqjB3u+dGxQS5pypnL0jVAPQQ4OgOyH2dlxjAgiQ=",
+    "last_login": "2021-08-26T16:30:41.423Z",
+    "is_superuser": true,
+    "email": "vvv@vvv.ru",
+    "first_name": "Вася",
+    "tg_token": "1627048801:AAErkRocZeume6oNJaq4Yy6-ZzWIClAaqbY",
+    "last_name": "Васильев",
+    "is_active": true,
+    "is_staff": true,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.useraccount",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$yybIGFPVClsQuH7YakASev$8Efk+40oQcx5AKYuGHkNW5L4HpmSlZR3gXc4gkCPH5Y=",
+    "last_login": null,
+    "is_superuser": true,
+    "email": "aaa@aaa.ru",
+    "first_name": "Петр",
+    "tg_token": "1668462979:AAG9TCoWzriJEWULw1K8hzztlIvJyGQiRBA",
+    "last_name": "Петров",
+    "is_active": true,
+    "is_staff": true,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.useraccount",
+  "pk": 3,
+  "fields": {
+    "password": "dfg",
+    "last_login": "2021-08-21T20:32:52Z",
+    "is_superuser": false,
+    "email": "bbb@bbb.ru",
+    "first_name": "b",
+    "tg_token": null,
+    "last_name": "",
+    "is_active": true,
+    "is_staff": true,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "constructor.bottext",
+  "pk": 1,
+  "fields": {
+    "text": "Привет, я бот по приему заявок",
+    "text_id": "hello",
+    "const": null,
+    "created": "2021-08-21T12:16:24.574Z",
+    "updated": "2021-08-21T12:18:39.321Z"
+  }
+},
+{
+  "model": "constructor.bottext",
+  "pk": 2,
+  "fields": {
+    "text": "Выберите категорию",
+    "text_id": "add_category",
+    "const": null,
+    "created": "2021-08-21T12:16:33.328Z",
+    "updated": "2021-08-21T12:18:39.336Z"
+  }
+},
+{
+  "model": "constructor.bottext",
+  "pk": 3,
+  "fields": {
+    "text": "Выберите услугу",
+    "text_id": "add_service",
+    "const": null,
+    "created": "2021-08-21T12:16:37.118Z",
+    "updated": "2021-08-21T12:18:39.350Z"
+  }
+},
+{
+  "model": "constructor.bottext",
+  "pk": 4,
+  "fields": {
+    "text": "Выберите сотрудника",
+    "text_id": "add_staff",
+    "const": null,
+    "created": "2021-08-21T12:16:41.241Z",
+    "updated": "2021-08-21T12:18:39.364Z"
+  }
+},
+{
+  "model": "constructor.bottext",
+  "pk": 5,
+  "fields": {
+    "text": "Введите дату",
+    "text_id": "add_date",
+    "const": null,
+    "created": "2021-08-21T12:16:44.955Z",
+    "updated": "2021-08-22T11:20:59.753Z"
+  }
+},
+{
+  "model": "constructor.bottext",
+  "pk": 6,
+  "fields": {
+    "text": "Введите имя",
+    "text_id": "add_name",
+    "const": null,
+    "created": "2021-08-21T12:16:48.869Z",
+    "updated": "2021-08-21T12:18:39.392Z"
+  }
+},
+{
+  "model": "constructor.bottext",
+  "pk": 7,
+  "fields": {
+    "text": "Введите номер телефона",
+    "text_id": "add_phone",
+    "const": null,
+    "created": "2021-08-21T12:16:51.785Z",
+    "updated": "2021-08-21T12:18:39.408Z"
+  }
+},
+{
+  "model": "constructor.bottext",
+  "pk": 8,
+  "fields": {
+    "text": "Отмена\r\nЧтоб начать заново наберите /start\r\nИли нажмите на одну из кнопок",
+    "text_id": "cancel",
+    "const": null,
+    "created": "2021-08-21T12:19:15.566Z",
+    "updated": "2021-08-21T12:20:41.814Z"
+  }
+},
+{
+  "model": "constructor.bottext",
+  "pk": 9,
+  "fields": {
+    "text": "Ошибка",
+    "text_id": "error",
+    "const": null,
+    "created": "2021-08-21T12:19:18.280Z",
+    "updated": "2021-08-21T12:20:41.829Z"
+  }
+},
+{
+  "model": "constructor.bottext",
+  "pk": 10,
+  "fields": {
+    "text": "Ошибка сервера",
+    "text_id": "server_error",
+    "const": null,
+    "created": "2021-08-21T12:19:20.838Z",
+    "updated": "2021-08-21T12:20:41.845Z"
+  }
+},
+{
+  "model": "constructor.bottext",
+  "pk": 33,
+  "fields": {
+    "text": "Контакты:\r\nгород\r\nномер\r\nадрес\r\nтелефон",
+    "text_id": "contacts",
+    "const": null,
+    "created": "2021-08-21T16:11:08.129Z",
+    "updated": "2021-08-21T16:11:22.233Z"
+  }
+},
+{
+  "model": "constructor.bottext",
+  "pk": 34,
+  "fields": {
+    "text": "Заявка сохранена!",
+    "text_id": "completed",
+    "const": null,
+    "created": "2021-08-21T17:26:01.743Z",
+    "updated": "2021-08-21T17:27:36.711Z"
+  }
+},
+{
+  "model": "constructor.bottext",
+  "pk": 37,
+  "fields": {
+    "text": "Я не понимаю",
+    "text_id": "another_msg",
+    "const": null,
+    "created": "2021-08-21T19:21:42.785Z",
+    "updated": "2021-08-21T19:21:42.785Z"
+  }
+},
+{
+  "model": "constructor.companytype",
+  "pk": 3,
+  "fields": {
+    "name": "Hairdresser"
+  }
+},
+{
+  "model": "constructor.companytype",
+  "pk": 4,
+  "fields": {
+    "name": "Barber"
+  }
+},
+{
+  "model": "constructor.companytype",
+  "pk": 5,
+  "fields": {
+    "name": "Massage salon"
+  }
+},
+{
+  "model": "constructor.companytype",
+  "pk": 6,
+  "fields": {
+    "name": "Beauty salon"
+  }
+},
+{
+  "model": "constructor.companytype",
+  "pk": 7,
+  "fields": {
+    "name": "Piercing"
+  }
+},
+{
+  "model": "constructor.defaultcategory",
+  "pk": 7,
+  "fields": {
+    "title": "Cutting & Styling",
+    "company_type": 3,
+    "service": [
+      5,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  }
+},
+{
+  "model": "constructor.defaultcategory",
+  "pk": 8,
+  "fields": {
+    "title": "Coloring",
+    "company_type": 3,
+    "service": [
+      6,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  }
+},
+{
+  "model": "constructor.defaultcategory",
+  "pk": 9,
+  "fields": {
+    "title": "Cutting & Styling",
+    "company_type": 4,
+    "service": [
+      18,
+      19,
+      20,
+      21
+    ]
+  }
+},
+{
+  "model": "constructor.defaultcategory",
+  "pk": 10,
+  "fields": {
+    "title": "Shaving & Trimming",
+    "company_type": 4,
+    "service": [
+      22,
+      23,
+      24
+    ]
+  }
+},
+{
+  "model": "constructor.defaultcategory",
+  "pk": 11,
+  "fields": {
+    "title": "Combos",
+    "company_type": 4,
+    "service": [
+      25,
+      26,
+      27
+    ]
+  }
+},
+{
+  "model": "constructor.defaultcategory",
+  "pk": 12,
+  "fields": {
+    "title": "Treading",
+    "company_type": 4,
+    "service": [
+      28
+    ]
+  }
+},
+{
+  "model": "constructor.defaultcategory",
+  "pk": 13,
+  "fields": {
+    "title": "Coloring",
+    "company_type": 4,
+    "service": [
+      29,
+      30
+    ]
+  }
+},
+{
+  "model": "constructor.defaultcategory",
+  "pk": 14,
+  "fields": {
+    "title": "Eyes",
+    "company_type": 6,
+    "service": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ]
+  }
+},
+{
+  "model": "constructor.defaultcategory",
+  "pk": 15,
+  "fields": {
+    "title": "Facial treatment",
+    "company_type": 6,
+    "service": [
+      45,
+      46,
+      47,
+      48,
+      49
+    ]
+  }
+},
+{
+  "model": "constructor.defaultcategory",
+  "pk": 16,
+  "fields": {
+    "title": "Nail services",
+    "company_type": 6,
+    "service": [
+      50,
+      51,
+      52,
+      53,
+      54,
+      55
+    ]
+  }
+},
+{
+  "model": "constructor.defaultcategory",
+  "pk": 17,
+  "fields": {
+    "title": "Waxing",
+    "company_type": 6,
+    "service": [
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67
+    ]
+  }
+},
+{
+  "model": "constructor.defaultcategory",
+  "pk": 18,
+  "fields": {
+    "title": "Ears",
+    "company_type": 7,
+    "service": [
+      68,
+      69,
+      70
+    ]
+  }
+},
+{
+  "model": "constructor.defaultcategory",
+  "pk": 19,
+  "fields": {
+    "title": "Face",
+    "company_type": 7,
+    "service": [
+      71,
+      72,
+      73,
+      74,
+      75,
+      76
+    ]
+  }
+},
+{
+  "model": "constructor.defaultcategory",
+  "pk": 20,
+  "fields": {
+    "title": "Body",
+    "company_type": 7,
+    "service": [
+      77,
+      78,
+      79,
+      80,
+      81
+    ]
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 5,
+  "fields": {
+    "name": "Cut & Finish",
+    "price": 60,
+    "company_type": 3,
+    "duration": "01:30:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 6,
+  "fields": {
+    "name": "Basic Tint",
+    "price": 60,
+    "company_type": 3,
+    "duration": "01:00:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 7,
+  "fields": {
+    "name": "Wet cut only",
+    "price": 40,
+    "company_type": 3,
+    "duration": "01:00:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 8,
+  "fields": {
+    "name": "Blow dry",
+    "price": 10,
+    "company_type": 3,
+    "duration": "00:15:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 9,
+  "fields": {
+    "name": "Cut and blow dry",
+    "price": 50,
+    "company_type": 3,
+    "duration": "01:15:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 10,
+  "fields": {
+    "name": "Men's Hair Cut",
+    "price": 20,
+    "company_type": 3,
+    "duration": "00:30:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 11,
+  "fields": {
+    "name": "Children's Hair Cut",
+    "price": 15,
+    "company_type": 3,
+    "duration": "00:30:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 12,
+  "fields": {
+    "name": "Formal Hair design",
+    "price": 90,
+    "company_type": 3,
+    "duration": "02:00:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 13,
+  "fields": {
+    "name": "Full Highlights",
+    "price": 60,
+    "company_type": 3,
+    "duration": "01:00:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 14,
+  "fields": {
+    "name": "Partial Highlights",
+    "price": 30,
+    "company_type": 3,
+    "duration": "00:30:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 15,
+  "fields": {
+    "name": "Gloss",
+    "price": 30,
+    "company_type": 3,
+    "duration": "00:30:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 16,
+  "fields": {
+    "name": "Conditioning Treatment",
+    "price": 30,
+    "company_type": 3,
+    "duration": "00:30:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 17,
+  "fields": {
+    "name": "Root Touch up",
+    "price": 30,
+    "company_type": 3,
+    "duration": "00:30:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 18,
+  "fields": {
+    "name": "Hair cut",
+    "price": 30,
+    "company_type": 4,
+    "duration": "00:30:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 19,
+  "fields": {
+    "name": "Wash & hair cut",
+    "price": 40,
+    "company_type": 4,
+    "duration": "00:45:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 20,
+  "fields": {
+    "name": "Clipper cut",
+    "price": 20,
+    "company_type": 4,
+    "duration": "00:20:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 21,
+  "fields": {
+    "name": "Head shave",
+    "price": 10,
+    "company_type": 4,
+    "duration": "00:10:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 22,
+  "fields": {
+    "name": "Clean shave",
+    "price": 10,
+    "company_type": 4,
+    "duration": "00:10:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 23,
+  "fields": {
+    "name": "Beard grooming",
+    "price": 20,
+    "company_type": 4,
+    "duration": "00:15:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 24,
+  "fields": {
+    "name": "Beard grooming & shave",
+    "price": 30,
+    "company_type": 4,
+    "duration": "00:20:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 25,
+  "fields": {
+    "name": "Hair cut & clean shave",
+    "price": 45,
+    "company_type": 4,
+    "duration": "00:45:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 26,
+  "fields": {
+    "name": "Hair cut, beard grooming & wash",
+    "price": 50,
+    "company_type": 4,
+    "duration": "01:00:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 27,
+  "fields": {
+    "name": "Clipper cut & beard grooming",
+    "price": 35,
+    "company_type": 4,
+    "duration": "00:30:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 28,
+  "fields": {
+    "name": "Eyebrow treading",
+    "price": 10,
+    "company_type": 4,
+    "duration": "00:15:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 29,
+  "fields": {
+    "name": "Hair dye",
+    "price": 30,
+    "company_type": 4,
+    "duration": "00:30:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 30,
+  "fields": {
+    "name": "Beard dye",
+    "price": 20,
+    "company_type": 4,
+    "duration": "00:20:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 31,
+  "fields": {
+    "name": "Head massage",
+    "price": 20,
+    "company_type": 5,
+    "duration": "00:20:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 32,
+  "fields": {
+    "name": "Back & shoulder massage",
+    "price": 40,
+    "company_type": 5,
+    "duration": "00:40:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 33,
+  "fields": {
+    "name": "Body massage",
+    "price": 60,
+    "company_type": 5,
+    "duration": "01:00:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 34,
+  "fields": {
+    "name": "Foot massage",
+    "price": 20,
+    "company_type": 5,
+    "duration": "00:20:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 35,
+  "fields": {
+    "name": "Deep Tissue massage",
+    "price": 20,
+    "company_type": 5,
+    "duration": "00:20:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 36,
+  "fields": {
+    "name": "Reflexology massage",
+    "price": 20,
+    "company_type": 5,
+    "duration": "00:20:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 37,
+  "fields": {
+    "name": "Swedish massage",
+    "price": 40,
+    "company_type": 5,
+    "duration": "00:40:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 38,
+  "fields": {
+    "name": "Thai massage",
+    "price": 40,
+    "company_type": 5,
+    "duration": "00:40:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 39,
+  "fields": {
+    "name": "Shiatsu hot stone",
+    "price": 20,
+    "company_type": 5,
+    "duration": "00:20:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 40,
+  "fields": {
+    "name": "Lash tint",
+    "price": 10,
+    "company_type": 6,
+    "duration": "00:10:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 41,
+  "fields": {
+    "name": "Lash lift",
+    "price": 15,
+    "company_type": 6,
+    "duration": "00:15:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 42,
+  "fields": {
+    "name": "Eyebrows tint",
+    "price": 15,
+    "company_type": 6,
+    "duration": "00:15:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 43,
+  "fields": {
+    "name": "Eyebrows shape",
+    "price": 20,
+    "company_type": 6,
+    "duration": "00:20:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 44,
+  "fields": {
+    "name": "Microblading",
+    "price": 30,
+    "company_type": 6,
+    "duration": "00:20:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 45,
+  "fields": {
+    "name": "Cleansing",
+    "price": 40,
+    "company_type": 6,
+    "duration": "00:20:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 46,
+  "fields": {
+    "name": "Peeling",
+    "price": 40,
+    "company_type": 6,
+    "duration": "00:20:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 47,
+  "fields": {
+    "name": "Face massage",
+    "price": 40,
+    "company_type": 6,
+    "duration": "00:20:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 48,
+  "fields": {
+    "name": "Dermaplaning",
+    "price": 60,
+    "company_type": 6,
+    "duration": "00:20:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 49,
+  "fields": {
+    "name": "Botox",
+    "price": 150,
+    "company_type": 6,
+    "duration": "00:40:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 50,
+  "fields": {
+    "name": "Manicures",
+    "price": 40,
+    "company_type": 6,
+    "duration": "00:30:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 51,
+  "fields": {
+    "name": "Acrylic Fill",
+    "price": 40,
+    "company_type": 6,
+    "duration": "00:30:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 52,
+  "fields": {
+    "name": "Acrylic Full set",
+    "price": 40,
+    "company_type": 6,
+    "duration": "00:30:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 53,
+  "fields": {
+    "name": "Pedicures",
+    "price": 40,
+    "company_type": 6,
+    "duration": "00:30:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 54,
+  "fields": {
+    "name": "Polish Change",
+    "price": 40,
+    "company_type": 6,
+    "duration": "00:30:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 55,
+  "fields": {
+    "name": "Gel Polish",
+    "price": 40,
+    "company_type": 6,
+    "duration": "00:30:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 56,
+  "fields": {
+    "name": "Eyebrow waxing",
+    "price": 15,
+    "company_type": 6,
+    "duration": "00:15:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 57,
+  "fields": {
+    "name": "Lip waxing",
+    "price": 15,
+    "company_type": 6,
+    "duration": "00:15:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 58,
+  "fields": {
+    "name": "Chin waxing",
+    "price": 15,
+    "company_type": 6,
+    "duration": "00:15:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 59,
+  "fields": {
+    "name": "Neck waxing",
+    "price": 15,
+    "company_type": 6,
+    "duration": "00:15:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 60,
+  "fields": {
+    "name": "Legs waxing",
+    "price": 30,
+    "company_type": 6,
+    "duration": "00:30:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 61,
+  "fields": {
+    "name": "Bikini waxing",
+    "price": 30,
+    "company_type": 6,
+    "duration": "00:30:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 62,
+  "fields": {
+    "name": "Underarm waxing",
+    "price": 30,
+    "company_type": 6,
+    "duration": "00:30:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 63,
+  "fields": {
+    "name": "Full arm waxing",
+    "price": 30,
+    "company_type": 6,
+    "duration": "00:30:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 64,
+  "fields": {
+    "name": "Back waxing",
+    "price": 30,
+    "company_type": 6,
+    "duration": "00:30:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 65,
+  "fields": {
+    "name": "Chest waxing",
+    "price": 30,
+    "company_type": 6,
+    "duration": "00:30:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 66,
+  "fields": {
+    "name": "Brazilian wax",
+    "price": 40,
+    "company_type": 6,
+    "duration": "00:45:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 67,
+  "fields": {
+    "name": "Full body wax",
+    "price": 50,
+    "company_type": 6,
+    "duration": "01:00:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 68,
+  "fields": {
+    "name": "Lobe piercing",
+    "price": 15,
+    "company_type": 7,
+    "duration": "00:05:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 69,
+  "fields": {
+    "name": "Lobe piercing (x2)",
+    "price": 20,
+    "company_type": 7,
+    "duration": "00:10:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 70,
+  "fields": {
+    "name": "Ear rim piercing",
+    "price": 20,
+    "company_type": 7,
+    "duration": "00:10:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 71,
+  "fields": {
+    "name": "Tongue piercing",
+    "price": 20,
+    "company_type": 7,
+    "duration": "00:10:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 72,
+  "fields": {
+    "name": "Cheek piercing",
+    "price": 20,
+    "company_type": 7,
+    "duration": "00:10:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 73,
+  "fields": {
+    "name": "Cheek piercing (x2)",
+    "price": 30,
+    "company_type": 7,
+    "duration": "00:20:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 74,
+  "fields": {
+    "name": "Lip piercing",
+    "price": 20,
+    "company_type": 7,
+    "duration": "00:10:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 75,
+  "fields": {
+    "name": "Nostril piercing",
+    "price": 20,
+    "company_type": 7,
+    "duration": "00:10:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 76,
+  "fields": {
+    "name": "Eyebrow piercing",
+    "price": 20,
+    "company_type": 7,
+    "duration": "00:10:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 77,
+  "fields": {
+    "name": "Nipple piercing",
+    "price": 20,
+    "company_type": 7,
+    "duration": "00:10:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 78,
+  "fields": {
+    "name": "Nipple piercing (x2)",
+    "price": 30,
+    "company_type": 7,
+    "duration": "00:20:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 79,
+  "fields": {
+    "name": "Surface piercing",
+    "price": 20,
+    "company_type": 7,
+    "duration": "00:10:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 80,
+  "fields": {
+    "name": "Microdermal piercing",
+    "price": 20,
+    "company_type": 7,
+    "duration": "00:10:00",
+    "staff": []
+  }
+},
+{
+  "model": "constructor.defaultservice",
+  "pk": 81,
+  "fields": {
+    "name": "Genital piercing",
+    "price": 30,
+    "company_type": 7,
+    "duration": "00:20:00",
+    "staff": []
+  }
+=======
+    "model": "sessions.session",
+    "pk": "rgrlvwfr4orxryn2tgb5uyekxyq4fwyq",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGlnxb7OmpM8ZrN2sTQIoluKkQtwdRUoB7ZuZ91aJ9m1Ke8trmkVdlVGX341pfOblAPKg5V71WJdtnVkfij5p00OV_Lqd7t_BRG06am_BQh9MFoSOOuDiGGPGHoIvjJ0lD8UZ4UgSGdHE4I04bw0i-KA-X8fINsg:1mKde5:xtlyGOMUNLAR4_7xO0X4eh78i1sZvoW7-3uQso7Lg-g",
+        "expire_date": "2021-09-13T09:32:01.318Z"
+    }
+},
+{
+    "model": "users.useraccount",
+    "fields": {
+        "password": "pbkdf2_sha256$260000$w1cM2XG6mYO6R2WIRCO5Ub$FWXqqjB3u+dGxQS5pypnL0jVAPQQ4OgOyH2dlxjAgiQ=",
+        "last_login": "2021-08-30T09:32:01.308Z",
+        "is_superuser": true,
+        "email": "vvv@vvv.ru",
+        "first_name": "Вася",
+        "tg_token": "1627048801:AAErkRocZeume6oNJaq4Yy6-ZzWIClAaqbY",
+        "last_name": "Васильев",
+        "is_active": true,
+        "is_staff": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.useraccount",
+    "fields": {
+        "password": "pbkdf2_sha256$260000$yybIGFPVClsQuH7YakASev$8Efk+40oQcx5AKYuGHkNW5L4HpmSlZR3gXc4gkCPH5Y=",
+        "last_login": null,
+        "is_superuser": true,
+        "email": "aaa@aaa.ru",
+        "first_name": "Петр",
+        "tg_token": "1668462979:AAG9TCoWzriJEWULw1K8hzztlIvJyGQiRBA",
+        "last_name": "Петров",
+        "is_active": true,
+        "is_staff": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.useraccount",
+    "fields": {
+        "password": "dfg",
+        "last_login": "2021-08-21T20:32:52Z",
+        "is_superuser": false,
+        "email": "bbb@bbb.ru",
+        "first_name": "b",
+        "tg_token": null,
+        "last_name": "",
+        "is_active": true,
+        "is_staff": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "constructor.bottext",
+    "pk": 1,
+    "fields": {
+        "text": "Привет, я бот по приему заявок",
+        "text_id": "hello",
+        "const": null,
+        "created": "2021-08-21T12:16:24.574Z",
+        "updated": "2021-08-21T12:18:39.321Z"
+    }
+},
+{
+    "model": "constructor.bottext",
+    "pk": 2,
+    "fields": {
+        "text": "Выберите категорию",
+        "text_id": "add_category",
+        "const": null,
+        "created": "2021-08-21T12:16:33.328Z",
+        "updated": "2021-08-21T12:18:39.336Z"
+    }
+},
+{
+    "model": "constructor.bottext",
+    "pk": 3,
+    "fields": {
+        "text": "Выберите услугу",
+        "text_id": "add_service",
+        "const": null,
+        "created": "2021-08-21T12:16:37.118Z",
+        "updated": "2021-08-21T12:18:39.350Z"
+    }
+},
+{
+    "model": "constructor.bottext",
+    "pk": 4,
+    "fields": {
+        "text": "Выберите сотрудника",
+        "text_id": "add_staff",
+        "const": null,
+        "created": "2021-08-21T12:16:41.241Z",
+        "updated": "2021-08-21T12:18:39.364Z"
+    }
+},
+{
+    "model": "constructor.bottext",
+    "pk": 5,
+    "fields": {
+        "text": "Введите дату",
+        "text_id": "add_date",
+        "const": null,
+        "created": "2021-08-21T12:16:44.955Z",
+        "updated": "2021-08-22T11:20:59.753Z"
+    }
+},
+{
+    "model": "constructor.bottext",
+    "pk": 6,
+    "fields": {
+        "text": "Введите имя",
+        "text_id": "add_name",
+        "const": null,
+        "created": "2021-08-21T12:16:48.869Z",
+        "updated": "2021-08-21T12:18:39.392Z"
+    }
+},
+{
+    "model": "constructor.bottext",
+    "pk": 7,
+    "fields": {
+        "text": "Введите номер телефона",
+        "text_id": "add_phone",
+        "const": null,
+        "created": "2021-08-21T12:16:51.785Z",
+        "updated": "2021-08-21T12:18:39.408Z"
+    }
+},
+{
+    "model": "constructor.bottext",
+    "pk": 8,
+    "fields": {
+        "text": "Отмена\r\nЧтоб начать заново наберите /start\r\nИли нажмите на одну из кнопок",
+        "text_id": "cancel",
+        "const": null,
+        "created": "2021-08-21T12:19:15.566Z",
+        "updated": "2021-08-21T12:20:41.814Z"
+    }
+},
+{
+    "model": "constructor.bottext",
+    "pk": 9,
+    "fields": {
+        "text": "Ошибка",
+        "text_id": "error",
+        "const": null,
+        "created": "2021-08-21T12:19:18.280Z",
+        "updated": "2021-08-21T12:20:41.829Z"
+    }
+},
+{
+    "model": "constructor.bottext",
+    "pk": 10,
+    "fields": {
+        "text": "Ошибка сервера",
+        "text_id": "server_error",
+        "const": null,
+        "created": "2021-08-21T12:19:20.838Z",
+        "updated": "2021-08-21T12:20:41.845Z"
+    }
+},
+{
+    "model": "constructor.bottext",
+    "pk": 33,
+    "fields": {
+        "text": "Контакты:\r\nгород\r\nномер\r\nадрес\r\nтелефон",
+        "text_id": "contacts",
+        "const": null,
+        "created": "2021-08-21T16:11:08.129Z",
+        "updated": "2021-08-21T16:11:22.233Z"
+    }
+},
+{
+    "model": "constructor.bottext",
+    "pk": 34,
+    "fields": {
+        "text": "Заявка сохранена!",
+        "text_id": "completed",
+        "const": null,
+        "created": "2021-08-21T17:26:01.743Z",
+        "updated": "2021-08-21T17:27:36.711Z"
+    }
+},
+{
+    "model": "constructor.bottext",
+    "pk": 37,
+    "fields": {
+        "text": "Я не понимаю",
+        "text_id": "another_msg",
+        "const": null,
+        "created": "2021-08-21T19:21:42.785Z",
+        "updated": "2021-08-21T19:21:42.785Z"
+    }
+},
+{
+    "model": "constructor.bottext",
+    "pk": 38,
+    "fields": {
+        "text": "Привет, я бот по приему заявок",
+        "text_id": "hello",
+        "const": 1,
+        "created": "2021-08-30T09:32:50.422Z",
+        "updated": "2021-08-30T09:32:50.422Z"
+    }
+},
+{
+    "model": "constructor.bottext",
+    "pk": 39,
+    "fields": {
+        "text": "Выберите категорию",
+        "text_id": "add_category",
+        "const": 1,
+        "created": "2021-08-30T09:32:50.423Z",
+        "updated": "2021-08-30T09:32:50.423Z"
+    }
+},
+{
+    "model": "constructor.bottext",
+    "pk": 40,
+    "fields": {
+        "text": "Выберите услугу",
+        "text_id": "add_service",
+        "const": 1,
+        "created": "2021-08-30T09:32:50.423Z",
+        "updated": "2021-08-30T09:32:50.424Z"
+    }
+},
+{
+    "model": "constructor.bottext",
+    "pk": 41,
+    "fields": {
+        "text": "Выберите сотрудника",
+        "text_id": "add_staff",
+        "const": 1,
+        "created": "2021-08-30T09:32:50.424Z",
+        "updated": "2021-08-30T09:32:50.424Z"
+    }
+},
+{
+    "model": "constructor.bottext",
+    "pk": 42,
+    "fields": {
+        "text": "Введите дату",
+        "text_id": "add_date",
+        "const": 1,
+        "created": "2021-08-30T09:32:50.425Z",
+        "updated": "2021-08-30T09:32:50.425Z"
+    }
+},
+{
+    "model": "constructor.bottext",
+    "pk": 43,
+    "fields": {
+        "text": "Введите имя",
+        "text_id": "add_name",
+        "const": 1,
+        "created": "2021-08-30T09:32:50.425Z",
+        "updated": "2021-08-30T09:32:50.425Z"
+    }
+},
+{
+    "model": "constructor.bottext",
+    "pk": 44,
+    "fields": {
+        "text": "Введите номер телефона",
+        "text_id": "add_phone",
+        "const": 1,
+        "created": "2021-08-30T09:32:50.426Z",
+        "updated": "2021-08-30T09:32:50.426Z"
+    }
+},
+{
+    "model": "constructor.bottext",
+    "pk": 45,
+    "fields": {
+        "text": "Отмена\r\nЧтоб начать заново наберите /start\r\nИли нажмите на одну из кнопок",
+        "text_id": "cancel",
+        "const": 1,
+        "created": "2021-08-30T09:32:50.426Z",
+        "updated": "2021-08-30T09:32:50.426Z"
+    }
+},
+{
+    "model": "constructor.bottext",
+    "pk": 46,
+    "fields": {
+        "text": "Ошибка",
+        "text_id": "error",
+        "const": 1,
+        "created": "2021-08-30T09:32:50.427Z",
+        "updated": "2021-08-30T09:32:50.427Z"
+    }
+},
+{
+    "model": "constructor.bottext",
+    "pk": 47,
+    "fields": {
+        "text": "Ошибка сервера",
+        "text_id": "server_error",
+        "const": 1,
+        "created": "2021-08-30T09:32:50.427Z",
+        "updated": "2021-08-30T09:32:50.427Z"
+    }
+},
+{
+    "model": "constructor.bottext",
+    "pk": 48,
+    "fields": {
+        "text": "Контакты:\r\nгород\r\nномер\r\nадрес\r\nтелефон",
+        "text_id": "contacts",
+        "const": 1,
+        "created": "2021-08-30T09:32:50.428Z",
+        "updated": "2021-08-30T09:32:50.428Z"
+    }
+},
+{
+    "model": "constructor.bottext",
+    "pk": 49,
+    "fields": {
+        "text": "Заявка сохранена!",
+        "text_id": "completed",
+        "const": 1,
+        "created": "2021-08-30T09:32:50.429Z",
+        "updated": "2021-08-30T09:32:50.429Z"
+    }
+},
+{
+    "model": "constructor.bottext",
+    "pk": 50,
+    "fields": {
+        "text": "Я не понимаю",
+        "text_id": "another_msg",
+        "const": 1,
+        "created": "2021-08-30T09:32:50.430Z",
+        "updated": "2021-08-30T09:32:50.430Z"
+    }
+},
+{
+    "model": "constructor.companytype",
+    "pk": 3,
+    "fields": {
+        "name": "Hairdresser"
+    }
+},
+{
+    "model": "constructor.companytype",
+    "pk": 4,
+    "fields": {
+        "name": "Barber"
+    }
+},
+{
+    "model": "constructor.companytype",
+    "pk": 5,
+    "fields": {
+        "name": "Massage salon"
+    }
+},
+{
+    "model": "constructor.companytype",
+    "pk": 6,
+    "fields": {
+        "name": "Beauty salon"
+    }
+},
+{
+    "model": "constructor.companytype",
+    "pk": 7,
+    "fields": {
+        "name": "Piercing"
+    }
+},
+{
+    "model": "constructor.constructor",
+    "pk": 1,
+    "fields": {
+        "name": "Первый",
+        "user": [
+            "vvv@vvv.ru"
+        ],
+        "company_type": 3,
+        "custom_company_type": null,
+        "company_name": "Первый",
+        "bot_name": "Первый",
+        "color": null,
+        "construct": null,
+        "dialog_config": null,
+        "created": "2021-08-30T09:32:50.415Z",
+        "updated": "2021-08-30T09:33:00.720Z",
+        "logo": []
+    }
+},
+{
+    "model": "constructor.category",
+    "pk": 2,
+    "fields": {
+        "title": "Cutting & Styling",
+        "const": 1,
+        "service": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+        ]
+    }
+},
+{
+    "model": "constructor.category",
+    "pk": 3,
+    "fields": {
+        "title": "Coloring",
+        "const": 1,
+        "service": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+        ]
+    }
+},
+{
+    "model": "constructor.service",
+    "pk": 1,
+    "fields": {
+        "name": "Cut & Finish",
+        "price": 60,
+        "duration": "01:30:00",
+        "const": 1,
+        "staff": []
+    }
+},
+{
+    "model": "constructor.service",
+    "pk": 2,
+    "fields": {
+        "name": "Wet cut only",
+        "price": 40,
+        "duration": "01:00:00",
+        "const": 1,
+        "staff": []
+    }
+},
+{
+    "model": "constructor.service",
+    "pk": 3,
+    "fields": {
+        "name": "Blow dry",
+        "price": 10,
+        "duration": "00:15:00",
+        "const": 1,
+        "staff": []
+    }
+},
+{
+    "model": "constructor.service",
+    "pk": 4,
+    "fields": {
+        "name": "Cut and blow dry",
+        "price": 50,
+        "duration": "01:15:00",
+        "const": 1,
+        "staff": []
+    }
+},
+{
+    "model": "constructor.service",
+    "pk": 5,
+    "fields": {
+        "name": "Men's Hair Cut",
+        "price": 20,
+        "duration": "00:30:00",
+        "const": 1,
+        "staff": []
+    }
+},
+{
+    "model": "constructor.service",
+    "pk": 6,
+    "fields": {
+        "name": "Children's Hair Cut",
+        "price": 15,
+        "duration": "00:30:00",
+        "const": 1,
+        "staff": []
+    }
+},
+{
+    "model": "constructor.service",
+    "pk": 7,
+    "fields": {
+        "name": "Formal Hair design",
+        "price": 90,
+        "duration": "02:00:00",
+        "const": 1,
+        "staff": []
+    }
+},
+{
+    "model": "constructor.service",
+    "pk": 8,
+    "fields": {
+        "name": "Basic Tint",
+        "price": 60,
+        "duration": "01:00:00",
+        "const": 1,
+        "staff": []
+    }
+},
+{
+    "model": "constructor.service",
+    "pk": 9,
+    "fields": {
+        "name": "Full Highlights",
+        "price": 60,
+        "duration": "01:00:00",
+        "const": 1,
+        "staff": []
+    }
+},
+{
+    "model": "constructor.service",
+    "pk": 10,
+    "fields": {
+        "name": "Partial Highlights",
+        "price": 30,
+        "duration": "00:30:00",
+        "const": 1,
+        "staff": []
+    }
+},
+{
+    "model": "constructor.service",
+    "pk": 11,
+    "fields": {
+        "name": "Gloss",
+        "price": 30,
+        "duration": "00:30:00",
+        "const": 1,
+        "staff": []
+    }
+},
+{
+    "model": "constructor.service",
+    "pk": 12,
+    "fields": {
+        "name": "Conditioning Treatment",
+        "price": 30,
+        "duration": "00:30:00",
+        "const": 1,
+        "staff": []
+    }
+},
+{
+    "model": "constructor.service",
+    "pk": 13,
+    "fields": {
+        "name": "Root Touch up",
+        "price": 30,
+        "duration": "00:30:00",
+        "const": 1,
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultcategory",
+    "pk": 7,
+    "fields": {
+        "title": "Cutting & Styling",
+        "company_type": 3,
+        "service": [
+            5,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+        ]
+    }
+},
+{
+    "model": "constructor.defaultcategory",
+    "pk": 8,
+    "fields": {
+        "title": "Coloring",
+        "company_type": 3,
+        "service": [
+            6,
+            13,
+            14,
+            15,
+            16,
+            17
+        ]
+    }
+},
+{
+    "model": "constructor.defaultcategory",
+    "pk": 9,
+    "fields": {
+        "title": "Cutting & Styling",
+        "company_type": 4,
+        "service": [
+            18,
+            19,
+            20,
+            21
+        ]
+    }
+},
+{
+    "model": "constructor.defaultcategory",
+    "pk": 10,
+    "fields": {
+        "title": "Shaving & Trimming",
+        "company_type": 4,
+        "service": [
+            22,
+            23,
+            24
+        ]
+    }
+},
+{
+    "model": "constructor.defaultcategory",
+    "pk": 11,
+    "fields": {
+        "title": "Combos",
+        "company_type": 4,
+        "service": [
+            25,
+            26,
+            27
+        ]
+    }
+},
+{
+    "model": "constructor.defaultcategory",
+    "pk": 12,
+    "fields": {
+        "title": "Treading",
+        "company_type": 4,
+        "service": [
+            28
+        ]
+    }
+},
+{
+    "model": "constructor.defaultcategory",
+    "pk": 13,
+    "fields": {
+        "title": "Coloring",
+        "company_type": 4,
+        "service": [
+            29,
+            30
+        ]
+    }
+},
+{
+    "model": "constructor.defaultcategory",
+    "pk": 14,
+    "fields": {
+        "title": "Eyes",
+        "company_type": 6,
+        "service": [
+            40,
+            41,
+            42,
+            43,
+            44
+        ]
+    }
+},
+{
+    "model": "constructor.defaultcategory",
+    "pk": 15,
+    "fields": {
+        "title": "Facial treatment",
+        "company_type": 6,
+        "service": [
+            45,
+            46,
+            47,
+            48,
+            49
+        ]
+    }
+},
+{
+    "model": "constructor.defaultcategory",
+    "pk": 16,
+    "fields": {
+        "title": "Nail services",
+        "company_type": 6,
+        "service": [
+            50,
+            51,
+            52,
+            53,
+            54,
+            55
+        ]
+    }
+},
+{
+    "model": "constructor.defaultcategory",
+    "pk": 17,
+    "fields": {
+        "title": "Waxing",
+        "company_type": 6,
+        "service": [
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67
+        ]
+    }
+},
+{
+    "model": "constructor.defaultcategory",
+    "pk": 18,
+    "fields": {
+        "title": "Ears",
+        "company_type": 7,
+        "service": [
+            68,
+            69,
+            70
+        ]
+    }
+},
+{
+    "model": "constructor.defaultcategory",
+    "pk": 19,
+    "fields": {
+        "title": "Face",
+        "company_type": 7,
+        "service": [
+            71,
+            72,
+            73,
+            74,
+            75,
+            76
+        ]
+    }
+},
+{
+    "model": "constructor.defaultcategory",
+    "pk": 20,
+    "fields": {
+        "title": "Body",
+        "company_type": 7,
+        "service": [
+            77,
+            78,
+            79,
+            80,
+            81
+        ]
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 5,
+    "fields": {
+        "name": "Cut & Finish",
+        "price": 60,
+        "company_type": 3,
+        "duration": "01:30:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 6,
+    "fields": {
+        "name": "Basic Tint",
+        "price": 60,
+        "company_type": 3,
+        "duration": "01:00:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 7,
+    "fields": {
+        "name": "Wet cut only",
+        "price": 40,
+        "company_type": 3,
+        "duration": "01:00:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 8,
+    "fields": {
+        "name": "Blow dry",
+        "price": 10,
+        "company_type": 3,
+        "duration": "00:15:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 9,
+    "fields": {
+        "name": "Cut and blow dry",
+        "price": 50,
+        "company_type": 3,
+        "duration": "01:15:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 10,
+    "fields": {
+        "name": "Men's Hair Cut",
+        "price": 20,
+        "company_type": 3,
+        "duration": "00:30:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 11,
+    "fields": {
+        "name": "Children's Hair Cut",
+        "price": 15,
+        "company_type": 3,
+        "duration": "00:30:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 12,
+    "fields": {
+        "name": "Formal Hair design",
+        "price": 90,
+        "company_type": 3,
+        "duration": "02:00:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 13,
+    "fields": {
+        "name": "Full Highlights",
+        "price": 60,
+        "company_type": 3,
+        "duration": "01:00:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 14,
+    "fields": {
+        "name": "Partial Highlights",
+        "price": 30,
+        "company_type": 3,
+        "duration": "00:30:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 15,
+    "fields": {
+        "name": "Gloss",
+        "price": 30,
+        "company_type": 3,
+        "duration": "00:30:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 16,
+    "fields": {
+        "name": "Conditioning Treatment",
+        "price": 30,
+        "company_type": 3,
+        "duration": "00:30:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 17,
+    "fields": {
+        "name": "Root Touch up",
+        "price": 30,
+        "company_type": 3,
+        "duration": "00:30:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 18,
+    "fields": {
+        "name": "Hair cut",
+        "price": 30,
+        "company_type": 4,
+        "duration": "00:30:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 19,
+    "fields": {
+        "name": "Wash & hair cut",
+        "price": 40,
+        "company_type": 4,
+        "duration": "00:45:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 20,
+    "fields": {
+        "name": "Clipper cut",
+        "price": 20,
+        "company_type": 4,
+        "duration": "00:20:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 21,
+    "fields": {
+        "name": "Head shave",
+        "price": 10,
+        "company_type": 4,
+        "duration": "00:10:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 22,
+    "fields": {
+        "name": "Clean shave",
+        "price": 10,
+        "company_type": 4,
+        "duration": "00:10:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 23,
+    "fields": {
+        "name": "Beard grooming",
+        "price": 20,
+        "company_type": 4,
+        "duration": "00:15:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 24,
+    "fields": {
+        "name": "Beard grooming & shave",
+        "price": 30,
+        "company_type": 4,
+        "duration": "00:20:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 25,
+    "fields": {
+        "name": "Hair cut & clean shave",
+        "price": 45,
+        "company_type": 4,
+        "duration": "00:45:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 26,
+    "fields": {
+        "name": "Hair cut, beard grooming & wash",
+        "price": 50,
+        "company_type": 4,
+        "duration": "01:00:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 27,
+    "fields": {
+        "name": "Clipper cut & beard grooming",
+        "price": 35,
+        "company_type": 4,
+        "duration": "00:30:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 28,
+    "fields": {
+        "name": "Eyebrow treading",
+        "price": 10,
+        "company_type": 4,
+        "duration": "00:15:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 29,
+    "fields": {
+        "name": "Hair dye",
+        "price": 30,
+        "company_type": 4,
+        "duration": "00:30:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 30,
+    "fields": {
+        "name": "Beard dye",
+        "price": 20,
+        "company_type": 4,
+        "duration": "00:20:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 31,
+    "fields": {
+        "name": "Head massage",
+        "price": 20,
+        "company_type": 5,
+        "duration": "00:20:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 32,
+    "fields": {
+        "name": "Back & shoulder massage",
+        "price": 40,
+        "company_type": 5,
+        "duration": "00:40:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 33,
+    "fields": {
+        "name": "Body massage",
+        "price": 60,
+        "company_type": 5,
+        "duration": "01:00:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 34,
+    "fields": {
+        "name": "Foot massage",
+        "price": 20,
+        "company_type": 5,
+        "duration": "00:20:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 35,
+    "fields": {
+        "name": "Deep Tissue massage",
+        "price": 20,
+        "company_type": 5,
+        "duration": "00:20:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 36,
+    "fields": {
+        "name": "Reflexology massage",
+        "price": 20,
+        "company_type": 5,
+        "duration": "00:20:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 37,
+    "fields": {
+        "name": "Swedish massage",
+        "price": 40,
+        "company_type": 5,
+        "duration": "00:40:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 38,
+    "fields": {
+        "name": "Thai massage",
+        "price": 40,
+        "company_type": 5,
+        "duration": "00:40:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 39,
+    "fields": {
+        "name": "Shiatsu hot stone",
+        "price": 20,
+        "company_type": 5,
+        "duration": "00:20:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 40,
+    "fields": {
+        "name": "Lash tint",
+        "price": 10,
+        "company_type": 6,
+        "duration": "00:10:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 41,
+    "fields": {
+        "name": "Lash lift",
+        "price": 15,
+        "company_type": 6,
+        "duration": "00:15:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 42,
+    "fields": {
+        "name": "Eyebrows tint",
+        "price": 15,
+        "company_type": 6,
+        "duration": "00:15:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 43,
+    "fields": {
+        "name": "Eyebrows shape",
+        "price": 20,
+        "company_type": 6,
+        "duration": "00:20:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 44,
+    "fields": {
+        "name": "Microblading",
+        "price": 30,
+        "company_type": 6,
+        "duration": "00:20:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 45,
+    "fields": {
+        "name": "Cleansing",
+        "price": 40,
+        "company_type": 6,
+        "duration": "00:20:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 46,
+    "fields": {
+        "name": "Peeling",
+        "price": 40,
+        "company_type": 6,
+        "duration": "00:20:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 47,
+    "fields": {
+        "name": "Face massage",
+        "price": 40,
+        "company_type": 6,
+        "duration": "00:20:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 48,
+    "fields": {
+        "name": "Dermaplaning",
+        "price": 60,
+        "company_type": 6,
+        "duration": "00:20:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 49,
+    "fields": {
+        "name": "Botox",
+        "price": 150,
+        "company_type": 6,
+        "duration": "00:40:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 50,
+    "fields": {
+        "name": "Manicures",
+        "price": 40,
+        "company_type": 6,
+        "duration": "00:30:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 51,
+    "fields": {
+        "name": "Acrylic Fill",
+        "price": 40,
+        "company_type": 6,
+        "duration": "00:30:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 52,
+    "fields": {
+        "name": "Acrylic Full set",
+        "price": 40,
+        "company_type": 6,
+        "duration": "00:30:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 53,
+    "fields": {
+        "name": "Pedicures",
+        "price": 40,
+        "company_type": 6,
+        "duration": "00:30:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 54,
+    "fields": {
+        "name": "Polish Change",
+        "price": 40,
+        "company_type": 6,
+        "duration": "00:30:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 55,
+    "fields": {
+        "name": "Gel Polish",
+        "price": 40,
+        "company_type": 6,
+        "duration": "00:30:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 56,
+    "fields": {
+        "name": "Eyebrow waxing",
+        "price": 15,
+        "company_type": 6,
+        "duration": "00:15:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 57,
+    "fields": {
+        "name": "Lip waxing",
+        "price": 15,
+        "company_type": 6,
+        "duration": "00:15:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 58,
+    "fields": {
+        "name": "Chin waxing",
+        "price": 15,
+        "company_type": 6,
+        "duration": "00:15:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 59,
+    "fields": {
+        "name": "Neck waxing",
+        "price": 15,
+        "company_type": 6,
+        "duration": "00:15:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 60,
+    "fields": {
+        "name": "Legs waxing",
+        "price": 30,
+        "company_type": 6,
+        "duration": "00:30:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 61,
+    "fields": {
+        "name": "Bikini waxing",
+        "price": 30,
+        "company_type": 6,
+        "duration": "00:30:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 62,
+    "fields": {
+        "name": "Underarm waxing",
+        "price": 30,
+        "company_type": 6,
+        "duration": "00:30:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 63,
+    "fields": {
+        "name": "Full arm waxing",
+        "price": 30,
+        "company_type": 6,
+        "duration": "00:30:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 64,
+    "fields": {
+        "name": "Back waxing",
+        "price": 30,
+        "company_type": 6,
+        "duration": "00:30:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 65,
+    "fields": {
+        "name": "Chest waxing",
+        "price": 30,
+        "company_type": 6,
+        "duration": "00:30:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 66,
+    "fields": {
+        "name": "Brazilian wax",
+        "price": 40,
+        "company_type": 6,
+        "duration": "00:45:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 67,
+    "fields": {
+        "name": "Full body wax",
+        "price": 50,
+        "company_type": 6,
+        "duration": "01:00:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 68,
+    "fields": {
+        "name": "Lobe piercing",
+        "price": 15,
+        "company_type": 7,
+        "duration": "00:05:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 69,
+    "fields": {
+        "name": "Lobe piercing (x2)",
+        "price": 20,
+        "company_type": 7,
+        "duration": "00:10:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 70,
+    "fields": {
+        "name": "Ear rim piercing",
+        "price": 20,
+        "company_type": 7,
+        "duration": "00:10:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 71,
+    "fields": {
+        "name": "Tongue piercing",
+        "price": 20,
+        "company_type": 7,
+        "duration": "00:10:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 72,
+    "fields": {
+        "name": "Cheek piercing",
+        "price": 20,
+        "company_type": 7,
+        "duration": "00:10:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 73,
+    "fields": {
+        "name": "Cheek piercing (x2)",
+        "price": 30,
+        "company_type": 7,
+        "duration": "00:20:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 74,
+    "fields": {
+        "name": "Lip piercing",
+        "price": 20,
+        "company_type": 7,
+        "duration": "00:10:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 75,
+    "fields": {
+        "name": "Nostril piercing",
+        "price": 20,
+        "company_type": 7,
+        "duration": "00:10:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 76,
+    "fields": {
+        "name": "Eyebrow piercing",
+        "price": 20,
+        "company_type": 7,
+        "duration": "00:10:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 77,
+    "fields": {
+        "name": "Nipple piercing",
+        "price": 20,
+        "company_type": 7,
+        "duration": "00:10:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 78,
+    "fields": {
+        "name": "Nipple piercing (x2)",
+        "price": 30,
+        "company_type": 7,
+        "duration": "00:20:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 79,
+    "fields": {
+        "name": "Surface piercing",
+        "price": 20,
+        "company_type": 7,
+        "duration": "00:10:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 80,
+    "fields": {
+        "name": "Microdermal piercing",
+        "price": 20,
+        "company_type": 7,
+        "duration": "00:10:00",
+        "staff": []
+    }
+},
+{
+    "model": "constructor.defaultservice",
+    "pk": 81,
+    "fields": {
+        "name": "Genital piercing",
+        "price": 30,
+        "company_type": 7,
+        "duration": "00:20:00",
+        "staff": []
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2021-08-30T09:32:50.433Z",
+        "user": [
+            "vvv@vvv.ru"
+        ],
+        "content_type": [
+            "constructor",
+            "constructor"
+        ],
+        "object_id": "1",
+        "object_repr": "1 | Первый",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2021-08-30T09:33:00.725Z",
+        "user": [
+            "vvv@vvv.ru"
+        ],
+        "content_type": [
+            "constructor",
+            "constructor"
+        ],
+        "object_id": "1",
+        "object_repr": "1 | Первый",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0438\\u0434 \\u0434\\u0435\\u044f\\u0442\\u0435\\u043b\\u044c\\u043d\\u043e\\u0441\\u0442\\u0438\"]}}]"
+    }
+>>>>>>> master
+}
+]

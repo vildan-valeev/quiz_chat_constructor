@@ -1,0 +1,49 @@
+version: "3.8"
+
+services:
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile.dev
+    container_name: backend
+    volumes:
+      - ./backend/:/app/
+    ports:
+      - 8000:8000
+    networks:
+      - back
+#    depends_on:
+#      - db
+  colorz:
+    build: ./colorz
+    container_name: colorz
+    command: python main.py
+    volumes:
+      - ./colorz/:/app/
+    ports:
+      - 7500:7500
+    networks:
+      - back
+    depends_on:
+      - backend
+
+  tg:
+    build:
+      context: ./tg
+      dockerfile: Dockerfile.dev
+    container_name: tg
+    command: python main.py
+    volumes:
+      - ./tg/:/usr/src/app/
+    restart: always
+    networks:
+      - back
+    ports:
+      - 6000:6000
+    depends_on:
+      - backend
+
+networks:
+   back:
+       driver: bridge
